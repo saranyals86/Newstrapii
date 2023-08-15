@@ -4,7 +4,8 @@
   "info": {
     "singularName": "blog-category",
     "pluralName": "blog-categories",
-    "displayName": "blog_category"
+    "displayName": "blog_category",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
