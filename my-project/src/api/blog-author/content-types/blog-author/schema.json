@@ -1,24 +1,18 @@
 {
   "kind": "collectionType",
-  "collectionName": "blogs",
+  "collectionName": "blog_authors",
   "info": {
-    "singularName": "blog",
-    "pluralName": "blogs",
-    "displayName": "blog",
-    "description": ""
+    "singularName": "blog-author",
+    "pluralName": "blog-authors",
+    "displayName": "blog_author"
   },
   "options": {
     "draftAndPublish": true
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true
-    },
-    "content": {
-      "type": "richtext",
-      "required": true
+    "name": {
+      "type": "string"
     },
     "image": {
       "allowedTypes": [
@@ -28,7 +22,7 @@
         "audios"
       ],
       "type": "media",
-      "multiple": true
+      "multiple": false
     }
   }
 }
